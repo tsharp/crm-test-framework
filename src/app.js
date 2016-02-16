@@ -1,16 +1,17 @@
 /* globals define */
+(function () {
 
-(function() {
     /**
      * App Module.
+     *
      * @module app
      */
-    define(function() {
-        var App = function(el) {
+    define(function () {
+        var App = function (el) {
             this.el = el;
         };
 
-        App.prototype.render = function() {
+        App.prototype.render = function () {
             this.el.html('require.js up and running');
         };
 

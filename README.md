@@ -5,3 +5,5 @@ This is a Microsoft CRM JavaScript Mocks/Fakes and Unit Test Framework built on 
 [![Build Status](https://travis-ci.org/tsharp/crm-test-framework.svg?branch=master)](https://travis-ci.org/tsharp/crm-test-framework)
 [![Code Climate](https://codeclimate.com/github/tsharp/crm-test-framework/badges/gpa.svg)](https://codeclimate.com/github/tsharp/crm-test-framework)
 [![Dependency Status](https://david-dm.org/tsharp/crm-test-framework.svg)](https://david-dm.org/tsharp/crm-test-framework)
+
+https://www.npmjs.com/package/grunt-msbuild
