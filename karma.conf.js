@@ -15,7 +15,7 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: [/*'Chrome', 'Firefox',*/ 'PhantomJS'],
+    browsers: [/*'Chrome', 'Firefox', 'IE',*/ 'PhantomJS'],
     singleRun: true,
     
     // If browser does not capture in given timeout [ms], kill it
