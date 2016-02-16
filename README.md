@@ -4,4 +4,4 @@ This is a Microsoft CRM JavaScript Mocks/Fakes and Unit Test Framework built on 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/tsharp/crm-test-framework) 
 [![Build Status](https://travis-ci.org/tsharp/crm-test-framework.svg?branch=master)](https://travis-ci.org/tsharp/crm-test-framework)
 [![Code Climate](https://codeclimate.com/github/tsharp/crm-test-framework/badges/gpa.svg)](https://codeclimate.com/github/tsharp/crm-test-framework)
-[![Dependency Status]https://david-dm.org/tsharp/crm-test-framework.svg)](https://david-dm.org/tsharp/crm-test-framework)
+[![Dependency Status](https://david-dm.org/tsharp/crm-test-framework.svg)](https://david-dm.org/tsharp/crm-test-framework)
