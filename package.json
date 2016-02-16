@@ -3,10 +3,13 @@
   "author": {
     "name": "Travis Sharp <travis.sharp@orbtialforge.com>"
   },
-  "version": "0.0.0",
+  
+  "version": "0.0.1",
+  
   "engines": {
     "node": ">= 0.10.0"
   },
+  
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.10.0",
@@ -33,6 +36,11 @@
     "karma-ie-launcher": "~0.2.0",
     "karma-firefox-launcher": "~0.1.7"
   },
+  
+  "scripts": {
+        "test": "grunt test"
+  },
+  
   "license": "MIT",
   "licenses": [
     "MIT"
