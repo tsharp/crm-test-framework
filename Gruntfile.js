@@ -91,10 +91,11 @@ module.exports = function(grunt) {
   
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('prod', ['clean', 'jshint', 'uglify', 'requirejs', 'concat', 'karma']);
-  grunt.registerTask('debug', ['clean', 'jshint', 'uglify', 'requirejs', 'concat', 'karma']);
+  grunt.registerTask('prod', ['clean', 'jshint', 'uglify', 'requirejs', 'concat']);
+  grunt.registerTask('debug', ['clean', 'jshint', 'uglify', 'requirejs', 'concat']);
+  grunt.registerTask('test', ['karma']);
   grunt.registerTask('doc', ['jsdoc']);
-  grunt.registerTask('all', ['prod', 'doc']);
+  grunt.registerTask('all', ['prod', 'doc', 'test']);
   // By default, lint and run all tests.
   grunt.registerTask('default', ['debug']);
 
